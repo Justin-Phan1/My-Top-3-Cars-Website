@@ -7,7 +7,7 @@ A simple website built using HTML and CSS which showcases three of my favorite c
 ## Installation
 1. Open the terminal
 2. Clone this repository using ```git clone https://github.com/Justin-Phan1/Top-3-Cars-Website.git```
-3. Navigate to the project directory
+3. Navigate to the project directory ```My-Top-3-Cars-Website```
 4. Open the file ```index.html```
 
 ## Future Directions
