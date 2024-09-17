@@ -1,0 +1,136 @@
+* {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    text-align: center;
+}
+
+H1{
+    font-size: 3em;
+}
+
+H2{
+    font-size: 2em;
+}
+
+H3{
+    font-size: 1.5em;
+}
+
+.part1{
+font-size: 18px;
+width: 60% ;
+padding: 50px;
+margin: 20px;
+
+}
+
+.animated-background {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: linear-gradient(270deg, #3498db, #c0392b, #1abc9c, #f39c12);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+    
+  .a {
+    border-radius: 7.5px;
+    font-size: 15px;
+    color: red;
+  }
+  
+  .a:active {
+    background-color: #c0392b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .b {
+    border-radius: 7.5px;
+    font-size: 15px;
+  }
+
+  .b:active {
+    background-color: #c0392b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+  
+  .c {
+    border-radius: 7.5px;
+    font-size: 15px;
+  }
+
+  .c:active {
+    background-color: #c0392b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .d {
+    border-radius: 7.5px;
+    font-size: 15px;
+  }
+
+  .d:active {
+    background-color: #c0392b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .e {
+    border-radius: 7.5px;
+    font-size: 15px;
+  }
+
+  .e:active {
+    background-color: #c0392b;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .navigation{
+    width: 101%;
+    display: block;
+    margin: 0px;
+    background-color: #757575;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    }
+  
+  li{
+    display: inline;
+    font-size: 17.5px;
+    float: left;
+  }
+
+  li a {
+    display: block;
+    margin: auto;
+    width: 327.5px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  
+  li a:hover {
+    background-color: green;
+  }
